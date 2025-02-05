@@ -64,7 +64,7 @@ The Cargo Shipment Booking System is a modern, user-friendly web application des
 
 2. Navigate to the project directory:
    \`\`\`
-   cd cargo-shipment-booking
+   cd interactivebooking
    \`\`\`
 
 3. Install dependencies:

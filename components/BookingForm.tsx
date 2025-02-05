@@ -23,6 +23,7 @@ const steps = [
 ]
 
 export function BookingForm() {
+  
   const { currentStep, formData, price, setCurrentStep, updateFormData } = useBookingStore()
 
   const form = useForm<BookingFormValues>({

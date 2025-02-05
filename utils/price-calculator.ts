@@ -30,7 +30,7 @@ export function calculateShippingPrice({
 
   // Apply discount if valid
   if (discountCode && discountCode in discountCodes) {
-    basePrice *= 1 - discountCodes[discountCode]
+    basePrice *= 1 - discountCodes[discountCode as keyof typeof discountCodes]
   }
 
   // Round to 2 decimal places
